@@ -1,0 +1,21 @@
+{
+    "name": "The Quest for Narrative Design",
+    "short_name": "Narrative Quest",
+    "description": "A collection of small narrative-driven projects created by Salvador Banderas Rovira as part of the THU & King Mentorship Program.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#38bdf8",
+    "icons": [
+        {
+            "src": "favicon/favicon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon/favicon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
