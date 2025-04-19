@@ -59,102 +59,200 @@
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Inter&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+        
     </head>
     <body class="bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white font-body min-h-screen px-6 py-12">
-        <header class="text-center mb-12">
-            <p class="text-lg text-gray-400 font-light font-subtitle italic mb-2">
-                Salvador Banderas’
-            </p>
-            <h1 class="text-5xl font-title text-primary drop-shadow-lg">The Quest for Narrative Design</h1>
-            <p class="mt-4 text-lg text-gray-300 max-w-xl mx-auto">
-                A collection of small narrative-driven projects created by 
-                <a href="https://www.salvadorbanderas.eu/" 
-                   class="text-secondary font-semibold no-underline hover:opacity-90 cursor-pointer transition"
-                   target="_blank" rel="noopener">
-                    Salvador Banderas Rovira
-                </a> 
-                as part of the <strong>THU & King Mentorship Program</strong>. Each one explores different ways to tell stories through play. Sometimes weird, sometimes fun, always personal. Special thanks to my mentor 
-                <a href="https://www.linkedin.com/in/marcpestka/"
-                    class="text-accent font-semibold no-underline hover:opacity-90 cursor-pointer transition"
+        <main class="max-w-6xl mx-auto">
+
+            <!-- Header -->
+            <header class="text-center mb-12">
+                <p class="text-lg text-gray-400 font-light font-subtitle italic mb-2">
+                    Salvador Banderas’
+                </p>
+                <h1 class="text-5xl font-title text-primary drop-shadow-lg">The Quest for Narrative Design</h1>
+                <p class="mt-4 text-lg text-gray-300 max-w-xl mx-auto">
+                    A collection of small narrative-driven projects created by 
+                    <a href="https://www.salvadorbanderas.eu/" 
+                    class="text-secondary font-semibold no-underline hover:opacity-90 cursor-pointer transition"
                     target="_blank" rel="noopener">
-                    Marc Pestka
+                        Salvador Banderas Rovira
+                    </a> 
+                    as part of the <strong>THU & King Mentorship Program</strong>. Each one explores different ways to tell stories through play. Sometimes weird, sometimes fun, always personal. Special thanks to my mentor 
+                    <a href="https://www.linkedin.com/in/marcpestka/"
+                        class="text-accent font-semibold no-underline hover:opacity-90 cursor-pointer transition"
+                        target="_blank" rel="noopener">
+                        Marc Pestka
+                    </a>
+                    for his support and guidance along the way.
+                </p>            
+            </header>
+
+            <!-- Mentored Projects -->
+            <section aria-labelledby="mentored-projects" class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+                <!-- Interactive CV -->
+                <a href="https://map.salvadorbanderas.quest/" target="_blank"
+                class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 shadow-md hover:shadow-primary/50 hover:ring-2 hover:ring-primary/40 p-4 animate-fadeIn">
+                    <img
+                        src="assets/project_mentored_interactive-cv.png"
+                        alt="Interactive CV"
+                        class="w-full h-48 object-cover rounded-md mb-4"
+                    />
+                    <h2 class="text-2xl font-semibold text-primary flex items-center gap-2">
+                        Final Fantasy-style Interactive CV
+                        <span
+                            title="This project is still in development"
+                            class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
+                            WIP
+                        </span>
+                    </h2>
+                    <p class="text-gray-400 mt-2 hidden sm:block">
+                        A CV turned into a 2D overworld map, inspired by old-school RPGs. You can walk around, explore skills and projects, and get a quick sense of my background in a more playful way.
+                    </p>
+                    <p class="text-gray-400 mt-2 block sm:hidden text-sm">
+                        A CV you can walk through. Like a mini RPG map of my experience.
+                    </p>
                 </a>
-                for his support and guidance along the way.
-            </p>            
-        </header>
 
-        <main class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Interactive Interview -->
+                <a href="https://interview.salvadorbanderas.quest/" target="_blank"
+                class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 shadow-md hover:shadow-accent/50 hover:ring-2 hover:ring-accent/40 p-4 animate-fadeIn delay-100">
+                    <img
+                        src="assets/project_mentored_interactive-interview.png"
+                        alt="Interactive Interview"
+                        class="w-full h-48 object-cover rounded-md mb-4"
+                    />
+                    <h2 class="text-2xl font-semibold text-accent flex items-center gap-2">
+                        The Interview: A Playable Recruiter Experience
+                        <span
+                            title="This project is still in development"
+                            class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
+                            WIP
+                        </span>
+                    </h2>
+                    <p class="text-gray-400 mt-2 hidden sm:block">
+                        A branching interview built in Narrat where you play as the recruiter. Through dice rolls and different roles, you unlock bits of my story. Think Disco Elysium meets a job interview.
+                    </p>
+                    <p class="text-gray-400 mt-2 block sm:hidden text-sm">
+                        You're the recruiter. Roll the dice, ask questions, see where it leads.
+                    </p>
+                </a>
 
-            <!-- Interactive CV -->
-            <a href="https://map.salvadorbanderas.quest/" target="_blank"
-               class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 shadow-md hover:shadow-primary/50 hover:ring-2 hover:ring-primary/40 p-4 animate-fadeIn">
-                <img
-                    src="assets/interactive-cv.png"
-                    alt="Interactive CV"
-                    class="w-full h-48 object-cover rounded-md mb-4"
-                />
-                <h2 class="text-2xl font-semibold text-primary flex items-center gap-2">
-                    Final Fantasy-style Interactive CV
-                    <span
-                        title="This project is still in development"
-                        class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
-                        WIP
-                    </span>
+                <!-- Where in the World is Salvador Banderas? -->
+                <a href="#" target="_blank" onclick="event.preventDefault();"
+                class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 shadow-md hover:shadow-secondary/50 hover:ring-2 hover:ring-secondary/40 p-4 animate-fadeIn delay-200">
+                    <img
+                        src="assets/project_mentored_where-in-the-world.png"
+                        alt="Where in the World is Salvador Banderas?"
+                        class="w-full h-48 object-cover rounded-md mb-4"
+                    />
+                    <h2 class="text-2xl font-semibold text-secondary flex items-center gap-2">
+                        Where in the World is Salvador Banderas?
+                        <span 
+                            title="This project is still in development"
+                            class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
+                            WIP
+                        </span>
+                    </h2>
+                    <p class="text-gray-400 mt-2 hidden sm:block">
+                        A branching story about a recruiter tasked with investigating a mysterious figure: me! After an anonymous tip claims I'm the next big thing in narrative design, the recruiter travels the world piecing together clues to find me.
+                    </p>
+                    <p class="text-gray-400 mt-2 block sm:hidden text-sm">
+                        Travel the world through a branching story. Who am I? Find out!
+                    </p>
+                </a>
+
+            </section>
+
+            <!-- Other Projects -->
+            <section aria-labelledby="other-projects" class="mt-20">
+                <h2 id="other-projects" class="text-3xl font-title text-white text-center mb-4">
+                    Other Projects
                 </h2>
-                <p class="text-gray-400 mt-2 hidden sm:block">
-                    A CV turned into a 2D overworld map, inspired by old-school RPGs. You can walk around, explore skills and projects, and get a quick sense of my background in a more playful way.
+                <p class="text-gray-400 text-center mb-10 max-w-3xl mx-auto">
+                    A collection of side projects and design experiments created during the mentorship, exploring different formats, themes, and mechanics.
                 </p>
-                <p class="text-gray-400 mt-2 block sm:hidden text-sm">
-                    A CV you can walk through. Like a mini RPG map of my experience.
-                </p>
-            </a>
-
-            <!-- Interactive Interview -->
-            <a href="https://interview.salvadorbanderas.quest/" target="_blank"
-               class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 shadow-md hover:shadow-accent/50 hover:ring-2 hover:ring-accent/40 p-4 animate-fadeIn delay-100">
-               <img
-                   src="assets/interactive-interview.png"
-                   alt="Interactive Interview"
-                   class="w-full h-48 object-cover rounded-md mb-4"
-               />
-                <h2 class="text-2xl font-semibold text-accent flex items-center gap-2">
-                    The Interview: A Playable Recruiter Experience
-                    <span
-                        title="This project is still in development"
-                        class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
-                        WIP
-                    </span>
-                </h2>
-                <p class="text-gray-400 mt-2 hidden sm:block">
-                    A branching interview built in Narrat where you play as the recruiter. Through dice rolls and different roles, you unlock bits of my story. Think Disco Elysium meets a job interview.
-                </p>
-                <p class="text-gray-400 mt-2 block sm:hidden text-sm">
-                    You're the recruiter. Roll the dice, ask questions, see where it leads.
-                </p>
-            </a>
-
-            <!-- Where in the World is Salvador Banderas? -->
-            <a href="#" target="_blank"
-            class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 shadow-md hover:shadow-secondary/50 hover:ring-2 hover:ring-secondary/40 p-4 animate-fadeIn delay-200">
-            <img src="assets/where-in-the-world.png" alt="Where in the World" class="w-full h-48 object-cover rounded-md mb-4" />
-            <h2 class="text-2xl font-semibold text-secondary flex items-center gap-2">
-                Where in the World is Salvador Banderas?
-                <span 
-                    title="This project is still in development"
-                    class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
-                    WIP
-                </span>
-            </h2>
-            <p class="text-gray-400 mt-2 hidden sm:block">
-                A branching story about a recruiter tasked with investigating a mysterious figure: me! After an anonymous tip claims I'm the next big thing in narrative design, the recruiter travels the world piecing together clues to find me.
-            </p>
-            <p class="text-gray-400 mt-2 block sm:hidden text-sm">
-                Travel the world through a branching story. Who am I? Find out!
-            </p>
-            </a>
-
+            
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 max-w-7xl mx-auto">
+                    
+                    <!-- A Silent Song -->
+                    <a href="assets/project_other_a-silent-song.pdf" target="_blank" 
+                       class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-md overflow-hidden transition hover:scale-[1.01] block">
+                        <img src="assets/project_other_a-silent-song.png" alt="A Silent Song" class="w-full h-28 object-cover" />
+                        <div class="p-3">
+                            <h3 class="text-base font-semibold text-accent mb-1">A Silent Song</h3>
+                            <p class="text-xs text-gray-400 mb-2">Design document</p>
+                            <p class="text-xs text-gray-400">
+                                A rhythm-based platformer where two children with aphasia navigate the world through music and motion, building connection without words.
+                            </p>
+                        </div>
+                    </a>
+            
+                    <!-- Narrative Design Research -->
+                    <a href="https://ragart.notion.site/thu-narrative-design-research" target="_blank" 
+                       class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-md overflow-hidden transition hover:scale-[1.01] block">
+                        <img src="assets/project_other_narrative-design-research.png" alt="Narrative Design Research" class="w-full h-28 object-cover" />
+                        <div class="p-3">
+                            <h3 class="text-base font-semibold text-accent mb-1">Narrative Design Research</h3>
+                            <p class="text-xs text-gray-400 mb-2">Research</p>
+                            <p class="text-xs text-gray-400">
+                                An early-stage collection of narrative design tools, articles, videos, and resources gathered to explore the field’s foundations.
+                            </p>
+                        </div>
+                    </a>
+            
+                    <!-- Player, Key, Door, Switch -->
+                    <a href="assets/project_other_player-key-door-switch.pdf" target="_blank" 
+                       class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-md overflow-hidden transition hover:scale-[1.01] block">
+                        <img src="assets/project_other_player-key-door-switch.png" alt="Player, Key, Door, Switch" class="w-full h-28 object-cover" />
+                        <div class="p-3">
+                            <h3 class="text-base font-semibold text-accent mb-1">Player, Key, Door, Switch</h3>
+                            <p class="text-xs text-gray-400 mb-2">Design Document</p>
+                            <p class="text-xs text-gray-400">
+                                A set of narrative game proposals exploring themes like obedience, sacrifice, and agency through puzzle-based mechanics.
+                            </p>
+                        </div>
+                    </a>
+            
+                    <!-- Infinite Houses -->
+                    <a href="https://ragart.itch.io/infinite-houses" target="_blank" 
+                       class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-md overflow-hidden transition hover:scale-[1.01] block">
+                        <img src="assets/project_other_infinite-houses.png" alt="Infinite Houses" class="w-full h-28 object-cover" />
+                        <div class="p-3">
+                            <h3 class="text-base font-semibold text-accent mb-1">Infinite Houses</h3>
+                            <p class="text-xs text-gray-400 mb-2">Prototype</p>
+                            <p class="text-xs text-gray-400">
+                                A looping mini-game with multiple modes, built around timed interactions with switches, keys, and absurd repetition.
+                            </p>
+                        </div>
+                    </a>
+            
+                    <!-- Party Animal -->
+                    <a href="#" target="_blank" onclick="event.preventDefault();"
+                       class="bg-gray-900 bg-opacity-70 backdrop-blur-sm border border-gray-700 rounded-md overflow-hidden transition hover:scale-[1.01] block">
+                        <img src="assets/project_other_party-animal.png" alt="Party Animal" class="w-full h-28 object-cover" />
+                        <div class="p-3">
+                            <h3 class="text-base font-semibold text-accent mb-1 flex items-center gap-2">
+                                Party Animal
+                                <span 
+                                    title="This project is still in development"
+                                    class="px-2 py-0.5 text-xs bg-yellow-500 text-black rounded-full font-medium">
+                                    WIP
+                                </span>
+                            </h3>
+                            <p class="text-xs text-gray-400 mb-2">Prototype</p>
+                            <p class="text-xs text-gray-400">
+                                A reimagining of a classic Mario Party-style minigame, redesigned with new mechanics, narrative context, and custom-coded behavior.
+                            </p>
+                        </div>
+                    </a>
+            
+                </div>
+            </section>
+            
         </main>
 
+        <!-- Footer -->
         <footer class="mt-16 text-center text-sm text-gray-500">
             <div class="mb-6">
                 <a href="https://www.trojan-unicorn.com/" target="_blank" rel="noopener">
